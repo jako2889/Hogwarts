@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", getJson);
 //GLOBALE VARIABLER -------------------------------
 
 let allStudents;
-let postTarget = document.querySelector("student_template");
-let postOutput = document.querySelector("student_wrapper");
+let postTarget = document.querySelector(".student_template");
+let postOutput = document.querySelector(".student_wrapper");
 
 //Hent Json ----------------------------------------------
 
