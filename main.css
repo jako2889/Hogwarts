@@ -16,14 +16,11 @@ body {
 }
 .student {
   padding: 10px;
-
-  animation: fade 3s;
 }
 
 header {
   display: flex;
 
-  background-color: black;
   background-image: url("photo-1502883687597-739575b8911d.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -76,9 +73,7 @@ header img {
   transition: opacity 0.5s ease-in-out;
   cursor: default;
 }
-.name:hover {
-  opacity: 0.3;
-}
+
 .house {
   cursor: default;
   padding-top: 5px;
