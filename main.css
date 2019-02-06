@@ -52,3 +52,18 @@ header img {
   font-size: 2em;
   padding: 10px;
 }
+
+.name {
+  text-decoration: underline;
+  font-size: 1.5em;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.house {
+  padding-top: 5px;
+  color: beige;
+  font: italic;
+
+  font-size: 1.2em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
