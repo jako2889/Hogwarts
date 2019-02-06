@@ -1,16 +1,18 @@
 body {
   margin: 0 auto;
+  background-color: black;
 }
 
 .student_wrapper {
   width: 100%;
-  background-color: black;
   color: white;
 
   display: grid;
 
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
+
+  padding: 10px;
 }
 .student {
   padding: 10px;
@@ -20,12 +22,15 @@ header {
   display: flex;
 
   background-color: black;
-  background-image: url("b0ff1a3520386aacce5cbad2986edc89.jpg");
+  background-image: url("photo-1502883687597-739575b8911d.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 header h1 {
   padding: 20px;
-  align-self: center;
 
   color: white;
   font-family: "Great Vibes", cursive;
@@ -37,4 +42,13 @@ header img {
 
   margin-left: auto;
   padding: 20px;
+}
+
+.intro {
+  color: white;
+  font-family: "Great Vibes", cursive;
+
+  text-align: center;
+  font-size: 2em;
+  padding: 10px;
 }
