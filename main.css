@@ -20,12 +20,6 @@ body {
 
 header {
   display: flex;
-
-  background-image: url("photo-1502883687597-739575b8911d.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 header h1 {
