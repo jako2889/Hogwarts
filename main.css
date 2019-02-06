@@ -1,0 +1,39 @@
+body {
+  margin: 0 auto;
+}
+
+.student_wrapper {
+  width: 100%;
+  background-color: black;
+  color: white;
+
+  display: grid;
+
+  justify-content: center;
+}
+.student {
+  padding: 10px;
+}
+
+header {
+  display: flex;
+
+  background-color: black;
+  background-image: url("b0ff1a3520386aacce5cbad2986edc89.jpg");
+}
+
+header h1 {
+  padding: 20px;
+  align-self: center;
+
+  color: white;
+  font-family: "Great Vibes", cursive;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+
+  margin-left: auto;
+  padding: 20px;
+}
